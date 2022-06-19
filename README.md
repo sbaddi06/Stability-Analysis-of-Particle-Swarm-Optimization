@@ -21,3 +21,4 @@ The parameters of Particle Swarm Optimization were tuned to maintain stability c
 
 The algorithm will try to discover the minimal value of these fitness functions for a predetermined number of maximum iterations. The speed/rate of convergence can be seen and how better is the exploration can be understood. Both the functions provided the same results and some observation where made which is shown in the below table.
 
+![image](/Images/Picture2.png)
