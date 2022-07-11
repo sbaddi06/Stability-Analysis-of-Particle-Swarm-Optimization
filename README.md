@@ -1,8 +1,19 @@
 # Stability-Analysis-of-Particle-Swarm-Optimization [Nature Inspired Algorithms]
 To develop stability criteria and hence evaluate the rate of convergence of Particle Swarm Optimization.
 # Introduction
-Nature Inspired Algorithms (NIA’s), as the name itself suggests that the algorithms which are inspired from the nature that is from the behaviour of animals. Particle swarm optimisation (PSO), was one of the fundamental NIA’s. PSO was inspired by looking at the school of fish or a flock of birds that moves in a group in the search of food. Whenever we look onto sky, we see the group of swarms moving in a pattern in the search of food and they communicate each other based on their swarm intelligence and can profit from the experience of all other members. Each particle has its personal best (best value of each particle) and global best (best value of particle in the entire swarm) and based on this they try to find the best next path for the food. That is if (personal best > global best) then they follow the path of personal best and if (global best > personal best) then they follow the path of global best, and this is done at each and every iteration so that they reach the global minima within lesser no of iterations. According to computational science, Particle swarm optimization (PSO) is a computational method that optimizes a problem by iteratively trying to improve a candidate solution and reduce the error.
-![image](/Images/Picture3.png)
+Nature Inspired Algorithms (NIA’s), as the name itself suggests that the algorithms which are inspired from the nature that is from the behaviour of animals. Particle swarm optimisation (PSO), was one of the fundamental NIA’s. PSO was inspired by looking at the school of fish or a flock of birds that moves in a group in the search of food. Whenever we look onto sky, we see the group of swarms moving in a pattern in the search of food and they communicate each other based on their swarm intelligence and can profit from the experience of all other members. Each particle has its personal best (best value of each particle) and global best (best value of particle in the entire swarm) and based on this they try to find the best next path for the food. That is if (personal best > global best) then they follow the path of personal best and if (global best > personal best) then they follow the path of global best, and this is done at each and every iteration so that they reach the global minima within lesser no of iterations. According to computational science, Particle swarm optimization (PSO) is a computational method that optimizes a problem by iteratively trying to improve a candidate solution and reduce the error. <br />
+
+
+![image](/Images/Picture3.png) <br />
+
+- Vi (t + 1) = w Vi (t) + r1 c1 [Pi (t) – Xi (t)] + r2 c2 [G (t) – Xi (t)] <br />
+-	Xi (t + 1) = Xi (t) + Vi (t + 1) <br />
+
+# Motivation
+
+While conducting a literature survey, we discovered two holes in the NIAs: stability and rate of convergence. Our major motivation was to use these NIAs to tweak controller parameters. To better comprehend the concept, consider cruise control, in which the driver selects the speed of the car and the ECU (Electronic Control Unit) takes control of the throttle and attempts to maintain the speed set by the driver. A speed sensor is installed to monitor the output speed, and if there is an error, it sends feedback to the controller, which is the PID controller in this case. This PID controller attempts to reduce error while maintaining the intended speed. For this PID controller to function effectively, the kp, ki, and kd variables must be appropriately tuned, which is accomplished by using the controller's algorithm. So, if the algorithm we're using is stable, the controller settings will be appropriately tuned and it will operate good, and if the controller works fine, the entire system will work perfectly.
+
+
 # Objectives
 The following are the key objectives on which we focused:
 - Numerical Optimization Techniques.
