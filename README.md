@@ -1,5 +1,8 @@
-# Stability-Analysis-of-Particle-Swarm-Optimization
+# Stability-Analysis-of-Particle-Swarm-Optimization [Nature Inspired Algorithms]
 To develop stability criteria and hence evaluate the rate of convergence of Particle Swarm Optimization.
+# Introduction
+Nature Inspired Algorithms (NIA’s), as the name itself suggests that the algorithms which are inspired from the nature that is from the behaviour of animals. Particle swarm optimisation (PSO), was one of the fundamental NIA’s. PSO was inspired by looking at the school of fish or a flock of birds that moves in a group in the search of food. Whenever we look onto sky, we see the group of swarms moving in a pattern in the search of food and they communicate each other based on their swarm intelligence and can profit from the experience of all other members. Each particle has its personal best (best value of each particle) and global best (best value of particle in the entire swarm) and based on this they try to find the best next path for the food. That is if (personal best > global best) then they follow the path of personal best and if (global best > personal best) then they follow the path of global best, and this is done at each and every iteration so that they reach the global minima within lesser no of iterations. According to computational science, Particle swarm optimization (PSO) is a computational method that optimizes a problem by iteratively trying to improve a candidate solution and reduce the error.
+![image](/Images/Picture3.png)
 # Objectives
 The following are the key objectives on which we focused:
 - Numerical Optimization Techniques.
